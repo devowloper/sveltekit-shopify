@@ -1,0 +1,27 @@
+{
+  "name": "shopify-frontend",
+  "version": "1.0.0",
+  "description": "A Shopify frontend using Sveltekit and Tailwind CSS",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "start": "svelte-kit start"
+  },
+  "keywords": ["sveltekit", "shopify", "tailwindcss"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sveltejs/kit": "1.22.3",
+    "svelte": "^3.0.0",
+    "tailwindcss": "^2.2.16"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.2.16",
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6",
+    "svelte-check": "^2.2.0",
+    "svelte-preprocess": "^4.7.4",
+    "vite": "^2.4.4"
+  }
+}
